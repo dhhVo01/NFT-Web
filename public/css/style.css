@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;900&display=swap');
+
+body{
+  font-family: 'Urbanist', sans-serif;
+  background-color: #14141f;
+  color: #fff;
+}
+/* ========HEADER========= */
+header{
+  background: rgba(20, 20, 31, 0.9);
+}
+.container-fluid{
+  padding: 0;
+}
+/* ---logo--- */
+.logo-text{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+/* ---nav--- */
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+/* ---form search--- */
+.form-search{
+  position: relative;
+}
+input[type="search"]{
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  background: transparent none repeat scroll 0 0;
+}
+.btn-search{
+  position: absolute;
+  top: 7px;
+  right: 18px;
+  padding: 0;
+  border: none;
+}
+.icon-search{
+  color: #fff;
+  font-size: 1.6rem;
+}
+/* ---wallet connect--- */
+.btn-wallet{
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 2rem;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent none repeat scroll 0 0;
+    padding: 12px 35px 12px 35px;
+}
+/* ---slider--- */
+
+.slider-content{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -8rem;
+  left: 27rem;
+  z-index: -10;
+}
+.btn-slider{
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent none repeat scroll 0 0;
+  padding: 12px 35px 12px 35px;
+}
+
+
+/* Animation */
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-6rem * 7))}
+}
+
+/*  Styling  */
+.slider {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    transform: rotate(60deg);
+    z-index: -1;
+}
+.slide img{
+    transform: rotate(-90deg);
+    height: 100%;
+}
+
+/* .slider:before, .slider:after {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	content: "";
+	height: 100%;
+	position: absolute;
+	width: 2rem;
+	z-index: 2;
+} */
+
+/* .slider:after {
+	right: 0;
+	top: 0;
+	transform: rotateZ(180deg);
+}
+
+.slider:before {
+	left: 0;
+	top: 0;
+} */
+
+.slide-track {
+	animation: scroll 40s linear infinite;
+	animation-duration: 5s;
+	display: flex;
+	width: calc(250px * 34);
+    height: 25%;
+}
+.reverse{
+    animation-direction: reverse;
+}
+
+.slide {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 115%;
+}
