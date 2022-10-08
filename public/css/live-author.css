@@ -1,0 +1,140 @@
+#live-author{
+  padding: 5rem 10px;
+  background-color: #1f1f2c;
+}
+.live-author-title{
+  font-weight: bold;
+}
+.heading-live-auctions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.pb-20 {
+    padding-bottom: 20px !important;
+}
+.heading-live-auctions .exp {
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    margin-top: -20px;
+}
+.heading-live-auctions .exp::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 1px;
+}
+.heading-live-auctions .exp.style2::after {
+    background: linear-gradient(216.56deg, #e250e5 5.32%, #4b50e6 94.32%);
+}
+#live-author a{
+	text-decoration: none;
+}
+.card-author{
+  padding: 20px;
+	border-radius: 1rem;
+	background: #343444;
+  margin: 0 10px;
+}
+.card-media{
+	position: relative;
+}
+.wishlist-button {
+    position: absolute;
+    top: 13px;
+    right: 11px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    padding: 2px 11px;
+    border-radius: 8px;
+    background-color: #14141f;
+    cursor: pointer;
+    border: none;
+}
+.wishlist-button .heart {
+    font-weight: 300;
+    margin-right: 5px;
+}
+.card-media img{
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+.featured-countdown {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 0;
+    border-radius: 13px;
+    background-color: #343444;
+    height: 36px;
+    width: 151px;
+}
+.featured-countdown .slogan {
+    margin-right: 10px;
+	  color: #5142fc;
+    font-size: 20px;
+}
+.card-body{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.card-title{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+}
+.tags{
+	width: 49px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #5142fc;
+    border-radius: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.meta-info, .author{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar{
+	width: 44px;
+    height: 44px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+.price{
+	text-align: right;
+}
+.info a{
+	color: #fff;
+}
+.info span, .price span{
+	color: #8a8aa0;
+    font-size: 13px;
+    line-height: 21px;
+}

@@ -1,0 +1,31 @@
+#top-seller{
+  padding: 5rem 10px;
+  background-color: #14141f;
+}
+/* .card-seller{
+  padding: 20px;
+	border-radius: 1rem;
+	background: #343444;
+  margin: 0 10px;
+} */.author-infor h5{
+font-weight: bold;
+}
+.sc-author-box.style-2 {
+    display: inline-block;
+    width: unset;
+    border-radius: unset;
+    text-align: center;
+    box-shadow: unset;
+    margin-bottom: 0;
+    background: transparent;
+}
+.sc-author-box.style-2 .author-avatar .avatar {
+    border-radius: 40px;
+    width: 120px;
+    height: 120px;
+}
+.badge{
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+}

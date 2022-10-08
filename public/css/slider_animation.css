@@ -1,0 +1,63 @@
+/* =====Main slider===== */
+.slider-content{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: -8rem;
+  left: 27rem;
+  z-index: -10;
+}
+.btn-slider{
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  background: transparent none repeat scroll 0 0;
+  padding: 1rem 3rem;
+}
+@media screen and (max-width: 960px) {
+    .fix-slider {
+        display: none !important;
+    }
+    .mainslider{
+      text-align: center;
+    }
+}
+
+/* Animation */
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-6rem * 7))}
+}
+
+/*  Styling  */
+.slider {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 80%;
+    transform: rotate(60deg);
+    z-index: -1;
+}
+.slide img{
+    transform: rotate(-90deg);
+    height: 100%;
+}
+.slide-track {
+	animation: scroll 40s linear infinite;
+	animation-duration: 5s;
+	display: flex;
+	width: calc(250px * 34);
+    height: 25%;
+}
+.reverse{
+    animation-direction: reverse;
+}
+
+.slide {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 115%;
+}
